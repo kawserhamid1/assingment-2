@@ -278,3 +278,21 @@ filter: grayscale(100%);
     padding: 20px;
     font-size: 12px;
 }
+@media only screen and (max-width: 768px) {
+    .nav-menu, .nav-menu ul,.main-container,.main-container-2,.sponsors, .fact-container{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .containter,.main-container, .main-container-2, .main-container-3, .main-container-4, .main-container-5{
+        padding: 5px;
+        margin: auto;
+    }
+    .image, .complete-projects{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        padding: 0px;
+    }
+
+}
