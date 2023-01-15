@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containter {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 200px 50px 200px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.nav-menu ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-top: 100px;
+
+}
+
+.header p {
+    color: #727272;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    padding: 0px 220px 50px 220px;
+    gap: 80px;
+
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    gap: 20px;
+}
+
+.image img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.main-header h2 {
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+
+#one {
+    color: #727272;
+}
+
+#three {
+    color: #FF900E;
+}
+
+.main-container-2 {
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.contents {
+    width: 50%;
+}
+
+.contents h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 15px;
+    border-left: 5px solid #FF900E;
+}
+.contents-info{
+    margin-bottom: 30px;
+}
+
+.contents p{
+    color: #727272;
+    
+}
+
+.sub-content{
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px 5px rgba(229, 237, 248, 0.562);
+}
+.sub-content h3{
+    margin-bottom: 10px;
+}
+
+.poster-image {
+    width: 50%;
+    position: relative;
+}
+
+.poster-image img {
+    width: 100%;
+    height: 100%;
+}
+.btn-secondary{
+    height: 80px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+
+}
+.btn-secondary h1{
+    font-size: 35px;
+    font-weight: 700;
+}
